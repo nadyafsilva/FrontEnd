@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
-
-    
+    <link rel="stylesheet" href="assets/CSS/style.css">    
 </head>
 <body>
-    <li>
+
+    <ul id="menu">
+        <li>
         <a href="index.html"> Home </a>
         </li>
 
@@ -30,8 +31,11 @@
             </li>
     </ul>
 
-    <h1>Fale Conosco</h1>
-    <form >
+    <h1 class="titulo">Fale Conosco</h1>
+    <div class="container texto">
+    
+    <div>
+    <form class="texto">
     
         <label for="nome">Nome:</label><br>
         <input type="text" id="nome"> 
@@ -48,8 +52,9 @@
         <br>
         <br>
         <button>Enviar</button>
+    </div>
 
-        <h2>Endereço</h2>
+    <div class="ml">
     <p>Hawkins, Indiana - EUA</p>
     <iframe 
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26891.741445666557!2d-95.22071445553563!3d32.
@@ -59,10 +64,35 @@
     height="300" 
     style="border:0;" 
     allowfullscreen="" 
-    loading="lazy"></iframe>
+    loading="lazy">
+    </iframe>
+    </div>
 
 
+    <footer>
     
+    <a href="https://www.facebook.com/nadya.fernandadasilva/" target="_blank">
+        <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do facebook">
+    </a>
+
+    <a href="https://www.instagram.com/nadyafsilva/" target="_blank">
+        <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do instagram">
+    </a>
+
+    <a href="https://www.linkedin.com/in/nadya-fernanda/" target="_blank">
+        <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+    </a>
+
+    <a href="https://github.com/nadyafsilva" target="_blank">
+        <img class="tm-social p-30" src="assets/img/github.png" alt="Logo Github">
+    </a>
+
+    </div>    
+    <p class="texto-rodape">
+    Todos os direitos reservados: Nadya Fernanda &copy;
+    </p>
+    </footer>
+  
 
 </body>
 </html>
