@@ -93,6 +93,19 @@ body{
     flex-flow: wrap;
 }
 
+.botao{
+  background-color: #ed1c24;
+  color: #ffffff;
+  padding: 11px 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 /*Estilo Rodapé*/
 .tm-social{
     width: 20px;
